@@ -1,0 +1,26 @@
+body{
+    background-color: yellowgreen;
+}
+
+h1{
+    color: black;
+    background-color: cyan;
+}
+
+#shows_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid darksalmon;
+    border-radius: 10px;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 8px 8px 40px lightseagreen;}
+    to{box-shadow: 8px 8px 40px maroon;}
+}
